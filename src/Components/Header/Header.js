@@ -12,10 +12,10 @@ export default function Header () {
                 <img src={logo} alt="" width="150"/>
             </figure>
             <nav className="hidden md:block text-white font-bold">
-                <a className="p-4 hover:text-voltic-red-500" onClick={title} href="#inicio">Inicio</a>
                 <a className="p-4 hover:text-voltic-red-500" onClick={title} href="#nosotros">Nosotros</a>
-                <a className="p-4 hover:text-voltic-red-500" onClick={title} href="#experiencia">Experiencia</a>
-                <a className="p-4 hover:text-voltic-red-500" onClick={title} href="#usuarios">Usuarios</a>
+                <a className="p-4 hover:text-voltic-red-500" onClick={title} href="#servicios">Servicios</a>
+                <a className="p-4 hover:text-voltic-red-500" onClick={title} href="#testimonios">Testimonios</a>
+                <a className="p-4 hover:text-voltic-red-500" onClick={title} href="#galeria"> Galería </a>
                 <a className="p-4 hover:text-voltic-red-500" onClick={title} href="#contacto">Contacto</a>
             </nav>
         </div>

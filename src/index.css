@@ -1,7 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root{
+    scroll-behavior: smooth;
+}
 body{
-    background-color: #0f222a;
+    background-color: #1a3d4b;
+}
+
+hr{
+    background-color: white;
+    mask: url("./hr_image.svg");
+    mask-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    animation: 4s ease-out infinite alternate-reverse forwards paintTheRay;
+}
+
+@keyframes paintTheRay{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: red;
+    }
+}
+.highlight-span span{
+    font-weight: bold;
+    color: #e3051e;
+}
+
+.nosotros{
+    background-image: url("./Components/Nosotros/nosotros-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nosotros-mask{
+    background-color: rgba(0,0,0,.7);
+    height: 100%;
+    width: 100%;
+}
+
+.corporative-phrase{
+    background-image: url("./Components/CorporativePhrase/phrase.webp");
+    background-repeat: no-repeat;
+    background-position-y: -300px;
 }

@@ -15,7 +15,17 @@ export default function Slider () {
         },5000)
     })
 
-    return <section className="container mx-auto overflow-hidden h-slider bg-voltic-red-900 mt-5">
+    useEffect(()=>{
+        const element = document.getElementById('slide');
+
+        window.addEventListener('scroll', () => {
+            if(element.getBoundingClientRect().top <= 0){
+                document.title = "Voltic | Inicio";
+            }
+        })
+    })
+
+    return <section className="container mx-auto overflow-hidden h-slider bg-voltic-red-900 mt-5" id='slide'>
         <div className="flex h-full w-full" ref={slider}>
             <div className="bg-blue-800 h-full w-full flex-shrink-0 flex justify-center items-center">
                 <h1 className="text-white text-2xl uppercase">Anuncio publicitario 01</h1>

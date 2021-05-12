@@ -5,6 +5,7 @@ module.exports = {
         extend: {
             height: {
                     'slider': '480px',
+                    'bout-us': '320px',
             },
             colors:{
                 voltic:{

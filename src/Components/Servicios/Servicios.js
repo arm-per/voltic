@@ -7,7 +7,7 @@ export default function Servicios () {
         const element = document.getElementById('servicios');
 
         window.addEventListener('scroll', () => {
-            if(element.getBoundingClientRect().top <= 0){
+            if(element.getBoundingClientRect().top <= 10){
                 document.title = "Voltic | Servicios";
             }
         })

@@ -6,7 +6,7 @@ export default function Nosotros (){
         const element = document.getElementById('nosotros');
 
         window.addEventListener('scroll', () => {
-            if(element.getBoundingClientRect().top <= 0){
+            if(element.getBoundingClientRect().top <= 10){
                 document.title = "Voltic | Nosotros";
             }
         })

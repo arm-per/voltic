@@ -42,7 +42,8 @@ export default function Gallery () {
     }
 
     return <>
-        <section className="container mx-auto mb-10 " id="galeria">
+        <section className="container mx-auto mb-10 bg-voltic-red-700 p-4" id="galeria">
+            <h2 className="text-white text-4xl font-bold text-center mb-8">Galería</h2>
             <div ref={renderPlace} className="w-full h-slider overflow-hidden">
                 <img src={img_1} alt="" className="w-full h-full object-cover object-center"/>
             </div>

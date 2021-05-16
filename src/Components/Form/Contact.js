@@ -9,7 +9,7 @@ export default function Contact (){
                 <p className="block">contacto@voltic.com</p>
             </div>
             <div className="h-96 box-border">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14528.717930927533!2d-104.12900586128082!3d24.444557482348504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869af0145e49dea7%3A0x4619cc39b8dc7be5!2sCiudad%20Guadalupe%20Victoria%2C%20Durango!5e0!3m2!1sen!2smx!4v1621021170975!5m2!1sen!2smx"  style={{'border': '0'}} loading="lazy" className="w-full h-full"></iframe>
+                <iframe title="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14528.717930927533!2d-104.12900586128082!3d24.444557482348504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869af0145e49dea7%3A0x4619cc39b8dc7be5!2sCiudad%20Guadalupe%20Victoria%2C%20Durango!5e0!3m2!1sen!2smx!4v1621021170975!5m2!1sen!2smx"  style={{'border': '0'}} loading="lazy" className="w-full h-full"/>
             </div>
         </div>
     </>

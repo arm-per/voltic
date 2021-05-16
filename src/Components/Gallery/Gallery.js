@@ -50,7 +50,7 @@ export default function Gallery () {
             <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-2 mt-2">
                 {
                     images.map((image, index) => {
-                        return <img src={image}  key={index} onClick={galleryHandleEvent} className="w-full h-full object-cover" alt="gallery_image"/>
+                        return <img src={image}  key={index} onClick={galleryHandleEvent} className="w-full h-full object-cover max-h-24" alt="gallery_image"/>
                     })
                 }
             </div>

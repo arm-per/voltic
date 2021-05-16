@@ -3,7 +3,7 @@ import logo from '../../logo-web.svg';
 export default function Footer(){
 
     return <footer className="bg-voltic-blue-900 p-6">
-            <div className="container mx-auto md:grid grid-cols-4">
+            <div className="container mx-auto md:grid grid-cols-4 text-center md:text-left">
                 <div className="text-white justify-self-center">
                     <h3 className="font-bold text-white text-lg">Nuestras redes</h3>
                     <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="py-1 hover:text-voltic-red-500 block">Facebook</a>
@@ -23,7 +23,7 @@ export default function Footer(){
                     <a className="py-1 hover:text-voltic-red-500 block" href="#nosotros">Link 1</a>
                     <a className="py-1 hover:text-voltic-red-500 block" href="#servicios">Link 2</a>
                 </div>
-                <div className="text-white justify-self-end">
+                <div className="text-white flex justify-center md:block md:justify-self-end">
                     <a className="py-1 hover:text-voltic-red-500 block w-44" href="#nosotros"><img src={logo} alt=""/></a>
 
                 </div>

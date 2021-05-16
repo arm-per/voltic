@@ -1,6 +1,6 @@
 export default function Formulario (){
 
-    return <form className="bg-voltic-blue-900 p-8">
+    return <form className="bg-voltic-blue-900 p-8 mt-4 md:mt-0">
         <label htmlFor="name" className="text-white block font-bold uppercase text-sm mb-1 text-center">Nombre</label>
         <input type="text" id="name" className="mb-2.5 block w-full box-border p-2"/>
         <label htmlFor="phone" className="text-white block font-bold uppercase text-sm mb-1 text-center">Teléfono</label>

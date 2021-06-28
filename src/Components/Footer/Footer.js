@@ -24,7 +24,7 @@ export default function Footer(){
                     <a className="py-1 hover:text-voltic-red-500 block" href="#servicios">Link 2</a>
                 </div>
                 <div className="text-white flex justify-center md:block md:justify-self-end">
-                    <a className="py-1 hover:text-voltic-red-500 block w-44" href="#nosotros"><img src={logo} alt=""/></a>
+                    <a className="py-1 hover:text-voltic-red-500 block w-44" href="#nosotros"><img src={logo} alt="logotipo voltic" width="176" height="46"/></a>
 
                 </div>
             </div>

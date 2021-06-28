@@ -5,14 +5,14 @@ export default function TestimonioCard (props) {
 
     return <div className="bg-voltic-blue-700 p-4 mb-8 md:mb-0 mx-2 md:mx-0">
         <figure>
-            <img src={props.children[0].props.src} alt="" className="rounded-full w-40 h-40 object-cover border-4 border-voltic-red-500 mx-auto mb-4"/>
+            <img src={props.children[0].props.src} alt="" className="rounded-full w-40 h-40 object-cover border-4 border-voltic-red-500 mx-auto mb-4" width="160" height="160"/>
         </figure>
         <div className="flex justify-center mb-4">
-            <img src={star} alt="" className="w-8 mr-2"/>
-            <img src={star} alt="" className="w-8 mr-2"/>
-            <img src={star} alt="" className="w-8 mr-2"/>
-            <img src={star} alt="" className="w-8 mr-2"/>
-            <img src={star} alt="" className="w-8"/>
+            <img src={star} alt="" className="w-8 mr-2" width="32" height="32"/>
+            <img src={star} alt="" className="w-8 mr-2" width="32" height="32"/>
+            <img src={star} alt="" className="w-8 mr-2" width="32" height="32"/>
+            <img src={star} alt="" className="w-8 mr-2" width="32" height="32"/>
+            <img src={star} alt="" className="w-8" width="32" height="32"/>
         </div>
         <p className="text-center text-white">
             {props.children[1].props.children}

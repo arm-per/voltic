@@ -39,15 +39,17 @@ hr{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
 }
 .nosotros-mask{
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.4);
     height: 100%;
     width: 100%;
+    backdrop-filter: blur(3px);
 }
 
 .corporative-phrase{
-    background-image: url("./Components/CorporativePhrase/phrase.webp");
+    background-image: url("./Components/CorporativePhrase/bg-custom.webp");
     background-repeat: no-repeat;
     background-position-y: -300px;
 }
